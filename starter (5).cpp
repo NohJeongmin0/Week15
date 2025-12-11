@@ -89,5 +89,8 @@ int main() {
 
     canvas.clear();
 
+    Circle* c = new Circle(3.0, "Green");
+    delete c;
+
     return 0;
 }
